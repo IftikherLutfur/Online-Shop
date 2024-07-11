@@ -1,10 +1,12 @@
+import Adven from "./Adven";
 import Slider from "./Slider";
 
 
 const Home = () => {
     return (
         <div>
-            <Slider/> 
+            <Slider/>
+            <Adven/> 
         </div>
     );
 };

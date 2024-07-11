@@ -1,3 +1,4 @@
+import PRoductCard from "../ProductCard/PRoductCard";
 import Adven from "./Adven";
 import Slider from "./Slider";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Slider/>
             <Adven/> 
+            <PRoductCard/>
         </div>
     );
 };
